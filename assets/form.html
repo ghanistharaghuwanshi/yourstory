@@ -1,0 +1,21 @@
+<form name="myform" action="#" method="post" class="your-story" onsubmit="return validateForm()">
+                                    
+         <div class="form-group ">
+          <label for="name">Your Name <span style="color: red;"> * </span></label>
+          <input name="name" title="Your Name" class="form-control name" autofocus  required="required" type="text">
+         </div>
+         <div class="form-group ">
+          <label for="contactno">Your Contact No <span style="color: red;"> * </span></label>
+          <input name="contactno" title="Your Contact number" class="form-control mobile"  required="required" data-validation="length" data-validation-length="10-11" type="number">
+         </div>
+		  <div class="form-group ">
+          <label for="contactno">Your Whatsapp No <span style="color: red;"> * </span></label>
+          <input name="whatsappno" title="Your Whatsapp Number" class="form-control whatsapp"  required="required" data-validation="length" data-validation-length="10-11" type="number">
+         </div>
+         <div class="form-group ">
+          <label for="content">Your Content <span style="color: red;"> * </span></label>
+          <textarea id="transliterateDiv" title="Your Story" name="content" cols="30" rows="5" class="form-control contentstory" required="required" placeholder="Write your content here..."></textarea>
+         </div>
+         <div class="form-group ">
+          <input class="btn btn-primary" name="send" value="Submit" type="submit"><span class="message"></span>
+         </div>
